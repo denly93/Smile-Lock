@@ -47,6 +47,8 @@ extension PasswordLoginViewController: PasswordInputCompleteProtocol {
             passwordContainerView.clearInput()
         }
     }
+
+    open func onCancel(_ passwordContainerView: PasswordContainerView) {}
 }
 
 private extension PasswordLoginViewController {
